@@ -4,7 +4,7 @@ A Density Converter.
 
 ## Flowchart
 
-:::mermaid
+```mermaid
     flowchart LR
     A((start))-->B{User Input}
     B-->|User Input: X|X(Exit)
@@ -14,4 +14,4 @@ A Density Converter.
     C-->D{Continue?}
     end
     D-->|User Input: N|X
-:::
+```
