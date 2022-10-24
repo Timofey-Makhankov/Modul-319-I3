@@ -11,7 +11,12 @@ A Density Converter.
     B-->|User Input: A|C(get User Input)
     subgraph Loop
     D-->|User Input: Y|C
-    C-->D{Continue?}
+    C-->|User Input: D|E(Calculate Density)
+    C-->|User Input: V|F(Calculate Volume)
+    C-->|User Input: M|G(Calculate Mass)
+    E-->D{Continue?}
+    F-->D
+    G-->D
     end
     D-->|User Input: N|X
 ```
